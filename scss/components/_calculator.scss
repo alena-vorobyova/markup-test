@@ -1,0 +1,49 @@
+.calculator {
+  .noUi-target {
+    height: 5px;
+    background: #E1E1E3;
+    border-radius: 30px;
+    border: none;
+    box-shadow: none;
+
+    @include mobile {
+      height: 4px;
+    }
+  }
+
+  .noUi-connect {
+    background: #FEE600;
+  }
+
+  .noUi-handle {
+    width: 35px;
+    height: 35px;
+    background: #FEE600;
+    border-radius: 50%;
+    border: none;
+    box-shadow: none;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out;
+
+    @include mobile {
+      width: 32px;
+      height: 32px;
+    }
+    
+    &:hover {
+      background: #FED500;
+    }
+
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+
+  .noUi-horizontal .noUi-handle {
+    top: -17px;
+
+    @include mobile {
+      top: -15px;
+    }
+  }
+}
