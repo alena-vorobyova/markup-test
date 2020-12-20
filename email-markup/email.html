@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
+  <meta http-Equiv="Content-Type" content="text / html charset = UTF-8" />
+  <title></title>
+
+  <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+  <style>
+    :root {
+      color-scheme: light;
+      supported-color-schemes: light;
+    }
+
+    html,
+    body {
+      margin: 0 auto !important;
+      padding: 0 !important;
+      height: 100% !important;
+      width: 100% !important;
+    }
+
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    div[style*="margin: 16px 0"] {
+      margin: 0 !important;
+    }
+
+    #MessageViewBody,
+    #MessageWebViewDiv {
+      width: 100% !important;
+    }
+
+    table,
+    td {
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
+    }
+
+    table {
+      border-spacing: 0 !important;
+      border-collapse: collapse !important;
+      table-layout: fixed !important;
+      margin: 0 auto !important;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a[x-apple-data-detectors],
+    .unstyle-auto-detected-links a,
+    .aBn {
+      border-bottom: 0 !important;
+      cursor: default !important;
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    .im {
+      color: inherit !important;
+    }
+
+    .a6S {
+      display: none !important;
+      opacity: 0.01 !important;
+    }
+
+    img.g-img+div {
+      display: none !important;
+    }
+
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+      u~div .email-container {
+        min-width: 320px !important;
+      }
+    }
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+      u~div .email-container {
+        min-width: 375px !important;
+      }
+    }
+
+    @media only screen and (min-device-width: 414px) {
+      u~div .email-container {
+        min-width: 414px !important;
+      }
+    }
+  </style>
+
+  <style>
+
+    .button-td {
+      padding: 0 28px;
+      border-style:none;
+      border-width:0; 
+      border:0; 
+      align:left; 
+      border-radius:10px; 
+      text-align:center;
+      vertical-align:middle; 
+      width:auto; 
+      background: #FEE600;
+    }
+
+    .button-a {
+      font-family:Arial, Helvetica, sans-serif;
+      text-decoration:none; 
+      color:#2b2d33; 
+      font-family-short:arial; 
+      vertical-align: middle;
+      font-size:18px; 
+      font-weight:normal;
+      white-space: nowrap;
+    }
+
+    .button-td-primary:hover,
+    .button-a-primary:hover {
+      background: #FEE600 !important;
+      border-color: #FEE600 !important;
+    }
+
+    /* Media Queries */
+    @media screen and (max-width: 640px) {
+
+      .stack-column,
+      .stack-column-center {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        direction: ltr !important;
+      }
+
+      .stack-column-center {
+        text-align: center !important;
+      }
+
+      .center-on-narrow {
+        text-align: center !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+      }
+
+      table.center-on-narrow {
+        display: inline-block !important;
+      }
+
+      .email-container .text {
+        font-size: 16px !important;
+      }
+
+      .email-container .text-big {
+        font-size: 20px !important;
+      }
+
+      .email-container .text-small {
+        font-size: 20px !important;
+      }
+
+      .block-hidden {
+        display: none !important;
+      }
+
+      .header-on-narrow {
+        padding: 10px !important;
+      }
+
+      .logo-on-narrow {
+        width: 101px !important;
+        height: 21px !important;
+      }
+
+      .block-divider {
+        padding: 2px 15px !important;
+      }
+
+      .padding-on-narrow {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+      }
+    }
+  </style>
+
+</head>
+
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: white;">
+  <table width="100%" bgcolor="" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>
+        <!--[if mso]>
+      <table width="600" align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td>
+            <![endif]-->
+        <table role="presentation" align="center" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0"
+          width="100%"
+          style="margin: auto; width: 100%; max-width: 600px;">
+          <tr>
+            <td dir="ltr" height="100%" valign="top" width="100%"
+              style="font-size:0; padding: 20px; background: #FEE600" class="header-on-narrow">
+              <!--[if mso]>
+                <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="560" style="width: 560px;">
+                <tr>
+                <td valign="top" width="440" style="width: 440px;">
+              <![endif]-->
+              <table align="left" bgcolor="#FEE600" border="0" cellpadding="0" cellspacing="0"
+              style="width: 100%; max-width: 440px;">
+              <tr>
+                <td>
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <tr>
+                      <td dir="ltr" style="padding: 0;">
+                        <img class="logo-on-narrow" src="images/logo.png" width="190" height="40" border="0" alt="logo"
+                          style="width: 100%; max-width: 191px; height: auto; max-height: 190px; background: #FEE600; font-family: sans-serif;
+                          font-size: 16px; line-height: 1.2; color: #2B2D33; padding: 0;">
+                      </td>
+                    </tr>
+                  </table>
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+                </td>
+                <td valign="top" width="120" style="width: 120px;">
+              <![endif]-->
+              <table class="block-hidden"  align="left" border="0" cellpadding="0" cellspacing="0"
+                style="width: 100%; max-width: 120px;">
+                <tr>
+                  <td>
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td align="left" valign="top">
+                          <p class="text" style="font-size:16px; font-weight:normal; line-height: 1.37; color:#2b2d33; font-family:Arial,Helvetica, sans-serif;
+                          font-weight:normal; text-align:
+                          left; margin: 0;">
+                            Просто. Четко.
+                            Компетентно.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+                </td>
+                </tr>
+                </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <tr>
+            <td bgcolor="#17324d" dir="ltr" height="100%" valign="top" width="100%"
+              style="font-size:0; text-align: left; background-color: #17324d;">
+              <!--[if mso]>
+                <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="600" style="width: 560px;">
+                <tr>
+                <td valign="top" width="325" style="width: 325px;">
+              <![endif]-->
+              <table  align="left" border="0" cellpadding="0" cellspacing="0"
+                style="width: 100%; max-width: 325px;">
+                <tr>
+                  <td class="stack-column">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td dir="ltr" style="font-family: Arial,Helvetica, sans-serif; font-size: 30px;
+                          line-height: 1.2; color:#ffffff; padding: 32px 30px 27px 30px;
+                          text-align: left;" class="center-on-narrow">
+                          <h2 style="font-family: Arial,Helvetica, sans-serif; font-size: 30px;
+                            line-height: 1.2; color:#ffffff; font-weight: bold; text-align: left; margin: 0 0 27px;">
+                            Закажите
+                            кредитную карту
+                            с&nbsp;кэшбэком&nbsp;1,5%</h2>
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="center-on-narrow"
+                            style="float:left;">
+                            <tr>
+                              <td class="button-td button-td-primary" height="54">
+                                <a class="button-a button-a-primary" href="#">Оформить&nbsp;карту</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+                </td>
+                <td valign="top" width="275" style="width: 275px;">
+              <![endif]-->
+              <table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 275px; background-color: #17324d;">
+                <tr>
+                  <td class="block-hidden">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td dir="ltr" style="padding: 0">
+                          <img src="images/bg.png" width="275" height="260" border="0" alt="hero"  style="width: 100%; max-width: 275px; height: auto; background: #dddddd; font-family: Arial, Helvetica, sans-serif;
+                            font-size: 16px; line-height: 1.2px; color: #2B2D33; background-color: #17324d;">
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+                </td>
+                </tr>
+                </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <tr>
+            <td style="background-color: #ffffff;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding: 45px 40px 35px;;
+                      text-align:left; ">
+                    <p class="text" style="font-size:16px; font-weight:normal; line-height: 1.37; color:#2b2d33; font-family:Arial,Helvetica, sans-serif;
+                      padding:0; text-align:
+                      left; margin:0; ;">Олег, откройте карту до 31 декабря 2020 года и покупайте по карте
+                      без процентов и навсегда забудьте про обслуживание.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center" valign="top" style="font-size:0; padding: 0; background-color: #ffffff;">
+              <!--[if mso]>
+                <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="600">
+                <tr>
+                <td valign="top" width="200">
+              <![endif]-->
+              <div
+                style="display:inline-block; margin: 0 -1px; max-width: 200px; min-width:140px; vertical-align:top; width:100%;"
+                class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="padding: 20px;">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                        style="font-size: 16px; text-align: center;">
+                        <tr>
+                          <td>
+                            <img src="images//calendar.png" width="48" height="" border="0" align="center" alt="calendar"
+                              style="width: 100%; max-width: 48px; height: auto; ; font-family:
+                              sans-serif; font-size: 16px; line-height: 1.37; color: #2b2d33;" class="center-on-narrow">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="stack-column-center" style="padding-top: 18px;">
+                            <p class="text-big" style="font-family: Arial, Helvetica,sans-serif; font-size: 20px; line-height: 1; color:
+                              #2b2d33; padding-bottom: 5px; margin: 0;">
+                              110 дней</p>
+                            <p class="text-small" style="font-family: Arial, Helvetica,sans-serif; font-size: 13px; line-height: 1.5; color:
+                            #808185; padding-top: 0; margin: 0;">без процентов на всё</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+                </td>
+                <td valign="top" width="200">
+              <![endif]-->
+              <div
+                style="display:inline-block; margin: 0 -1px; max-width: 200px; min-width:140px; vertical-align:top; width:100%;"
+                class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="padding: 20px;">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                        style="font-size: 16px;text-align: center;">
+                        <tr>
+                          <td>
+                            <img src="images/service.png" width="48" height="" border="0" align="center" alt="service"
+                              style="width: 100%; max-width: 48px; height: auto;; font-family:
+                              sans-serif; font-size: 16px; line-height: 1.37; color: #2b2d33;" class="center-on-narrow">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="padding-top: 18px;" class="stack-column-center">
+                            <p class="text-big" style="font-family: Arial, Helvetica,sans-serif; font-size: 20px; line-height: 1; color:
+                              #2b2d33; padding-bottom: 5px; margin: 0;">
+                              до 600 000</p>
+                            <p class="text-small" style="font-family: Arial, Helvetica,sans-serif; font-size: 13px; line-height: 1.5; color:
+                            #808185; padding-top: 0; margin: 0;">ваш кредитный лимит</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+                </td>
+                <td valign="top" width="200">
+              <![endif]-->
+              <div
+                style="display:inline-block; margin: 0 -1px; max-width: 200px; min-width:140px; vertical-align:top; width:100%;"
+                class="stack-column">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="padding: 20px;">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                        style="font-size: 16px;text-align: center;">
+                        <tr>
+                          <td>
+                            <img src="images/credit.png" width="48" height="" border="0" align="center" alt="credit"
+                              style="width: 100%; max-width: 48px; height: auto;; font-family:
+                              sans-serif; font-size: 16px; line-height: 1.37; color: #2b2d33;" class="center-on-narrow">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="padding-top: 18px;" class="stack-column-center">
+                            <p class="text-big" style="font-family: Arial, Helvetica,sans-serif; font-size: 20px; line-height: 1; color:
+                              #2b2d33; padding-bottom: 5px; margin: 0;">
+                              бесплатно</p>
+                            <p class="text-small" style="font-family: Arial, Helvetica,sans-serif; font-size: 13px; line-height: 1.5; color:
+                            #808185; padding-top: 0;margin: 0;">обслуживание и снятие</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!--[if mso]>
+                </td>
+                </tr>
+                </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;"
+                bgcolor="#ffffff">
+                <tr style="border-color:transparent">
+                  <td cellpadding="0" cellspacing="0" style="border-collapse:collapse; border-color:transparent">
+                    <div class="block-divider"
+                      style="padding-bottom:20px; padding-left:40px; padding-right:40px; padding-top:20px">
+                      <hr
+                        style="margin:0; border-bottom:0; border-left:0; border-right:0; border-top-color:#B2B2B2; border-top-style:solid; border-top-width:1px">
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="background-color: #ffffff;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding: 20px 40px 27px;">
+                    <h2 style="font-size:24px; font-weight:bold; line-height: 1.3; color:#2b2d33; font-family:Arial,Helvetica, sans-serif;
+                      text-align:left; margin: 0;">Кредитная карта с бесплатной доставкой</h2>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center" valign="top" style="font-size:0; padding: 0 40px; background-color: #ffffff;">
+              <!--[if mso]>
+                <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="520">
+                <tr>
+                <td valign="top" width="260">
+              <![endif]-->
+            <table align="left" border="0" cellpadding="0" cellspacing="0"
+              style="width: 100%; max-width: 260px;">
+              <tr>
+                <td class="stack-column">
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <tr>
+                      <td dir="ltr" height="100%" valign="top" width="100%"
+                        style="font-size:0; padding: 0 0 30px; background-color: #ffffff;">
+                        <!--[if mso]>
+                          <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="260" style="width: 260px;">
+                          <tr>
+                          <td valign="top" width="50" style="width: 50px;">
+                        <![endif]-->
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 50px;">
+                        <tr>
+                          <td>
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                              <tr>
+                                <td dir="ltr" style="padding: 0 18px 0 0;">
+                                  <img src="images/card.png" width="32" height="" border="0" alt="alt_text"
+                                    class="center-on-narrow"
+                                    style="width: 100%; max-width: 32px; height: auto; font-family: sans-serif; font-size: 16px; line-height: 1.37; color: #2b2d33;">
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]>
+                        </td>
+                        <td valign="top" width="210" style="width: 210px;">
+                      <![endif]-->
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 210px;">
+                        <tr>
+                          <td>
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                              <tr>
+                                <td dir="ltr" style="padding: 0" class="center-on-narrow">
+                                  <p class="text" style="font-family: sans-serif; font-size: 16px; line-height: 1.37; color: #2b2d33;
+                                  text-align: left; margin: 0 ;">Получение <br> в день обращения.</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                      <![endif]-->
+                    </td>
+                  </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+              <!--[if mso]>
+                </td>
+                <td valign="top" width="260">
+              <![endif]-->
+              <table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 260px;">
+                <tr>
+                  <td class="stack-column">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td dir="ltr" height="100%" valign="top" width="100%"
+                          style="font-size:0; padding: 0 0 30px; background-color: #ffffff;">
+                          <!--[if mso]>
+                            <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="260" style="width: 260px;">
+                            <tr>
+                            <td valign="top" width="50" style="width: 50px;">
+                          <![endif]-->
+                          <table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 50px;">
+                            <tr>
+                              <td>
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                  <tr>
+                                    <td dir="ltr" style="padding: 0 18px 0 0;">
+                                      <img src="images/document.png" width="26" height="" border="0" alt="alt_text"
+                                        class="center-on-narrow"
+                                        style="width: 100%; max-width: 26px; height: auto; font-family: sans-serif; font-size: 16px; line-height: 1.37; color: #2b2d33;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if mso]>
+                            </td>
+                            <td valign="top" width="210" style="width: 210px;">
+                          <![endif]-->
+                          <table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 210px;">
+                            <tr>
+                              <td>
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                  <tr>
+                                    <td dir="ltr" style=" padding: 0 30px 0 0" class="center-on-narrow">
+                                      <p class="text" style="font-family: sans-serif; font-size: 16px; line-height: 1.37; color: #2b2d33;
+                                      text-align: left; margin: 0 ;">1 документ. <br> Нужен только паспорт.</p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+                </td>
+                </tr>
+                </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center" valign="top" style="font-size:0; padding: 0 40px; background-color: #ffffff;">
+              <!--[if mso]>
+                <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="520">
+                <tr>
+                <td valign="top" width="260">
+              <![endif]-->
+              <table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 260px;">
+                <tr>
+                  <td class="stack-column">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td dir="ltr" height="100%" valign="top" width="100%"
+                          style="font-size:0; padding: 0 0 30px; background-color: #ffffff;">
+                          <!--[if mso]>
+                            <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="260" style="width: 260px;">
+                            <tr>
+                            <td valign="top" width="50" style="width: 50px;">
+                          <![endif]-->
+                          <table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 50px;">
+                            <tr>
+                              <td>
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                  <tr>
+                                    <td dir="ltr" style="padding: 0 18px 0 0;">
+                                      <img src="images/percent.png" width="29" height="" border="0" alt="alt_text"
+                                        class="center-on-narrow"
+                                        style="width: 100%; max-width: 29px; height: auto; font-family: sans-serif; font-size: 16px; line-height: 1.37; color: #2b2d33;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if mso]>
+                            </td>
+                            <td valign="top" width="210" style="width: 210px;">
+                          <![endif]-->
+                          <table align="left" border="0" cellpadding="0" cellspacing="0"
+                            style="width: 100%; max-width: 210px;">
+                            <tr>
+                              <td>
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                  <tr>
+                                    <td dir="ltr" style="padding: 0 30px 0 0" class="center-on-narrow">
+                                      <p class="text" style="font-family: sans-serif; font-size: 16px; line-height: 1.37; color: #2b2d33;
+                                      text-align: left; margin: 0 ;">Скидки у партнёров <br> банка и Mastercard</p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+                </td>
+                <td valign="top" width="260">
+              <![endif]-->
+              <table align="left" border="0" cellpadding="0" cellspacing="0"
+                style="width: 100%; max-width: 260px;">
+                <tr>
+                  <td class="stack-column">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td dir="ltr" height="100%" valign="top" width="100%"
+                          style="font-size:0; padding: 0 0 30px; background-color: #ffffff;">
+                          <!--[if mso]>
+                            <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="300" style="width: 300px;">
+                            <tr>
+                            <td valign="top" width="50" style="width: 50px;">
+                          <![endif]-->
+                          <table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 50px;">
+                            <tr>
+                              <td>
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                  <tr>
+                                    <td dir="ltr" style="padding: 0 18px 0 0;">
+                                      <img src="images/check.png" width="32" height="" border="0" alt="alt_text"
+                                        class="center-on-narrow"
+                                        style="width: 100%; max-width: 32px; height: auto; font-family: sans-serif; font-size: 16px; line-height: 1.37; color: #2b2d33;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if mso]>
+                            </td>
+                            <td valign="top" width="210" style="width: 210px;">
+                          <![endif]-->
+                          <table align="left" border="0" cellpadding="0" cellspacing="0"
+                            style="width: 100%; max-width: 210px;">
+                            <tr>
+                              <td>
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                  <tr>
+                                    <td dir="ltr" style="padding: 0 30px 0 0" class="center-on-narrow">
+                                      <p class="text" style="font-family: sans-serif; font-size: 16px; line-height: 1.37; color: #2b2d33;
+                                        margin: 0; text-align: left;">
+                                        Акция для зарплатных <br> клиентов.</p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+                </td>
+                </tr>
+                </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;"
+                bgcolor="#ffffff">
+                <tr style="border-color:transparent">
+                  <td cellpadding="0" cellspacing="0" style="border-collapse:collapse; border-color:transparent">
+                    <div class="block-divider"
+                      style="padding-bottom:20px; padding-left:40px; padding-right:40px; padding-top:20px">
+                      <hr
+                        style="margin:0; border-bottom:0; border-left:0; border-right:0; border-top-color:#B2B2B2; border-top-style:solid; border-top-width:1px">
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 40px 40px;" align="center" valign="top">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding: 10px 0;">
+                    <h2 style="font-family:Arial, Helvetica, sans-serif; font-size: 24px; line-height: 1.2;
+                      color: #333333; font-weight: bold; text-align: center; margin: 0">
+                      Начните получать выгоду прямо сейчас!.</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">
+                    <table align="center" role="presentation" cellspacing="0" cellpadding="0"
+                      border="0"
+                      style="margin: auto;">
+                      <tr>
+                        <td class="button-td button-td-primary" height="54">
+                          <a class="button-a button-a-primary" href="#">Получить&nbsp;карту</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center" valign="top" style="font-size:0; padding: 15px 40px; background-color: #F4F4F4">
+              <!--[if mso]>
+                <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="520">
+                <tr>
+                <td valign="top" width="260">
+              <![endif]-->
+              <table align="left" border="0" cellpadding="0" cellspacing="0"
+                style="width: 100%; max-width: 260px;">
+                <tr>
+                  <td class="stack-column">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="padding: 5px 0;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                            style="font-size: 14px; text-align: left;">
+                            <tr>
+                              <td>
+                                <p class="text-small" style="font-family:Arial, Helvetica, sans-serif; font-size: 13px; line-height: 2.3; color: #2B2D33; margin:
+                                  0;">Телефон в Москве:</p>
+                                <p class="text-big" style="font-family:Arial, Helvetica, sans-serif;  font-size: 20px; line-height: 1.5; color: #2B2D33; margin:
+                                  0;">+7 495 775 55 75</p>
+                                <a class="" href="" style="font-size:13px; font-family:Arial, Helvetica, sans-serif;
+                                  color:#00AAFF; line-height: 2.3 ;text-decoration: none;" target="_blank"
+                                  rel=" noopener noreferrer">raiffeisen.ru</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+                </td>
+                <td valign="top" width="260">
+              <![endif]-->
+              <table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 260px;">
+                <tr>
+                  <td class="stack-column">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <td style="padding: 5px 0;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                            style="font-size: 14px;text-align: left;">
+                            <tr>
+                              <td>
+                                <p class="text-small" style="font-family:Arial, Helvetica, sans-serif; font-size: 13px; line-height: 2.3; color: #2B2D33; margin:
+                                  0;">Бесплатно по России:</p>
+                                <p class="text-big" style="font-family:Arial, Helvetica, sans-serif;  font-size: 20px; line-height: 1.5; color: #2B2D33; margin:
+                                  0;">8 800 700 64 01</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+                </td>
+                </tr>
+                </table>
+              <![endif]-->
+            </td>
+          </tr>
+
+          <tr>
+            <td style="background-color: #ffffff;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding: 20px 40px;">
+                    <h2 style="font-size:16px; font-weight:bold; line-height: 1.37; color:#2b2d33; font-family:Arial,Helvetica, sans-serif;
+                      text-align:left; margin: 0;">Ваш Райффайзенбанк</h2>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="background-color: #ffffff;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td
+                    style="padding: 24px 40px; border-bottom-width:1px; border-bottom-color:#E1E1E3; border-bottom-style:solid; border-left:0; border-right:0; border-top-color:#E1E1E3; border-top-style:solid; border-top-width:1px;">
+                    <p class="text-extra-small" style="font-size:10px; font-weight:normal; line-height: 1.1; color:#808185; font-family:Arial,Helvetica, sans-serif;
+                      padding:0; text-align: left; margin:0; ;">Ставка 10,99% действует для клиентов, которые на момент
+                      заключения договора с
+                      банком участвуют в программе страхования жизни от несчастных случаев и болезней, на случай дожития
+                      до события потери работы заемщиков потребительских кредитов АО «Райффайзенбанк» (далее — программа
+                      финансовой защиты) для кредитов на сумму от 1 млн до 2 млн руб. (для Москвы и МО, Санкт-Петербурга
+                      и
+                      ЛО) / от 700 000 до 1 млн руб. для остальных регионов. При сумме кредита от 500 000 до 999 000
+                      руб.
+                      (для Москвы и МО, Санкт- Петербурга и ЛО) / от 300 000 до 699 000 руб. (для остальных регионов)
+                      действует ставка 11,99%. При сумме кредита от 90 000 до 499 000 руб. (для Москвы и МО, Санкт-
+                      Петербурга и ЛО) / от 90 000 до 299 000 руб. (для остальных регионов) действует ставка 12,99%. В
+                      случае прекращения участия заемщика в программе финансовой защиты процентная ставка увеличивается
+                      от
+                      3 до 4 п. п. Кредитный договор действует до исполнения сторонами своих обязательств. Срок возврата
+                      кредита — от 13 до 60 мес. Банк принимает решение о заключении кредитного договора индивидуально
+                      по
+                      результатам проведенной оценки кредитоспособности клиента. Информация действительна на 01.07.19.
+                      АО
+                      «Райффайзенбанк». 0+</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="background-color: #ffffff;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding: 24px 40px;">
+                    <p class="text-tiny" style="font-size:11px; font-weight:normal; line-height: 1.6; color:#2B2D33; font-family:Arial,Helvetica, sans-serif;
+                      padding:0; text-align: left; margin:0;">© АО «Райффайзенбанк»</p>
+                    <p class="text-tiny" style="font-size:11px; font-weight:normal; line-height: 1.6; color:#2B2D33; font-family:Arial,Helvetica, sans-serif;
+                      padding:0; text-align: left; margin:0;">Генеральная лицензия Банка России № 3292 от 17.02.2015.
+                    </p>
+                    <p class="text-tiny" style="font-size:11px; font-weight:normal; line-height: 1.6; color:#2B2D33; font-family:Arial,Helvetica, sans-serif;
+                      padding:0; text-align: left; margin:0;">Юридический адрес: 129090, Москва, ул. Троицкая, д. 17,
+                      стр. 1</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!--[if mso]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
