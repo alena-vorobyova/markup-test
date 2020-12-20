@@ -1,18 +1,3 @@
-// function calculator() {
-//   var rangeSum=document.getElementById('js-calculator__range-sum'); 
-//   var rangeDate=document.getElementById('js-calculator__range-date'); 
-//   var sum=document.getElementById('js-calculator__sum');
-//   var date=document.getElementById('js-calculator__date');
-//   var payment=document.getElementById('js-calculator__payment');
-//   var rate=Number.parseInt(document.getElementById('js-calculator__rate').innerHTML);
-//   var koef;
-
-//   i = (rate / 12) / 100;
-//   koef = (i * (Math.pow(1 + i, rangeDate.value))) / (Math.pow(1 + i, rangeDate.value) - 1);
-//   payment.innerHTML=(rangeSum.value * koef).toFixed();
-//   sum.innerHTML=rangeSum.value;
-//   date.innerHTML=rangeDate.value;
-// }
 var sliderSum = document.getElementById('js-calculator__slider-sum');
 var sliderDate = document.getElementById('js-calculator__slider-date');
 var sum=document.getElementById('js-calculator__sum');

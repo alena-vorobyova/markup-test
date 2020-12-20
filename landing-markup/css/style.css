@@ -428,6 +428,7 @@ button {
 .promo {
   color: #ffffff;
   background-image: url(../images/promo-desk.jpg);
+  background-position: left 50% bottom -30px;
   background-color: #26364d;
   background-repeat: no-repeat;
   background-position: center;
@@ -494,7 +495,7 @@ button {
 
 @media screen and (max-width: 1023px) {
   .promo__title {
-    max-width: 340px;
+    max-width: 315px;
   }
 }
 
